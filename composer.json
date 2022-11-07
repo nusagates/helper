@@ -1,5 +1,8 @@
 {
     "name": "nusagates/helper",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
     "description": "General helper fol building Laravel Application",
     "autoload": {
         "psr-4": {
@@ -12,8 +15,7 @@
             "email": "budairi.contact@gmail.com"
         }
     ],
-    "require": {},
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "license": "MIT"
+    "require": {
+        "php" : "^7.3|^8.0|^8.1"
+    }
 }
