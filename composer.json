@@ -6,7 +6,6 @@
     "prefer-stable": true,
     "license": "MIT",
     "description": "General helper fol building Laravel Application",
-    "version": "v0.1.0",
     "autoload": {
         "psr-4": {
             "Nusagates\\Helper\\": "src/"
