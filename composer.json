@@ -1,0 +1,16 @@
+{
+    "name": "nusagates/helper",
+    "description": "General helper fol building Laravel Application",
+    "autoload": {
+        "psr-4": {
+            "Nusagates\\Helper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmad Budairi",
+            "email": "budairi.contact@gmail.com"
+        }
+    ],
+    "require": {}
+}
