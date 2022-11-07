@@ -12,5 +12,7 @@
             "email": "budairi.contact@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
