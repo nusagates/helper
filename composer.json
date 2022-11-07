@@ -1,5 +1,7 @@
 {
     "name": "nusagates/helper",
+    "keywords": ["laravel","helper", "addon", "Laravel helper"],
+    "homepage": "https://github.com/nusagates/helper",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "license": "MIT",
@@ -12,7 +14,9 @@
     "authors": [
         {
             "name": "Ahmad Budairi",
-            "email": "budairi.contact@gmail.com"
+            "email": "budairi.contact@gmail.com",
+            "homepage": "https://nusagates.co.id/author/cakbud/",
+            "role": "Author"
         }
     ],
     "require": {
