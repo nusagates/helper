@@ -1,7 +1,7 @@
 {
-    "name": "nusagates/helper",
+    "name": "nusagates/laravel-helper",
     "keywords": ["laravel","helper", "addon", "Laravel helper"],
-    "homepage": "https://github.com/nusagates/helper",
+    "homepage": "https://github.com/nusagates/laravel-helper",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "license": "MIT",
