@@ -4,7 +4,7 @@ namespace Nusagates\Helper;
 
 class DateFormat
 {
-public static function getMonthname($number)
+  public static function getMonthname($number)
   {
     switch ($number) {
       case '01':
@@ -34,8 +34,11 @@ public static function getMonthname($number)
     }
   }
 
- public static function dateFormat($date)
+  public static function dateFormat($date)
   {
+    $regex = '^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}';
+    if (!preg_match($regex, $date)) return $date;
+
     $date = explode("-", $date);
     $month = DateFormat::getMonthname($date[1]);
     return $date[2] . ' ' . $month . ' ' . $date[0];
